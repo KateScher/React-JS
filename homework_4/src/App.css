@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+nav {
+  display: flex;
+}
+
+ul { 
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
