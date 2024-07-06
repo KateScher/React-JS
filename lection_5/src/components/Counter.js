@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 
+// Пример с Redux - также см. папку modules
 const Counter = () => {
   const count = useSelector((state) => state);
   const dispatch = useDispatch();
@@ -21,5 +22,5 @@ const Counter = () => {
     </div>
   );
 };
-
+// далее идем в Store
 export default Counter;
