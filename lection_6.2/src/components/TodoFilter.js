@@ -12,9 +12,9 @@ const TodoFilter = () => {
 
   return (
     <select value={filter} onChange={handleChange}>
-      <option value="all">All</option>
-      <option value="completed">Completed</option>
-      <option value="active">Active</option>
+      <option value="all">Все</option>
+      <option value="completed">Выполненные</option>
+      <option value="active">Активные</option>
     </select>
   );
 };

@@ -23,7 +23,7 @@ const AddTodo = () => {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={handleAddTodo}>Add Todo</button>
+      <button onClick={handleAddTodo}>Добавить задачу</button>
     </div>
   );
 };
