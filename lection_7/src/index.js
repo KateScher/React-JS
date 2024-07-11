@@ -4,7 +4,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react"; // импортируем PersistGate
 import rootReducer from "./rootReducer";
-import thunk from "redux-thunk";
+import { thunk } from "redux-thunk";
 import createSagaMiddleware from "redux-saga";
 import mySaga from "./sagas";
 import { persistReducer } from "redux-persist";
